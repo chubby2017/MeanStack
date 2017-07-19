@@ -9,4 +9,10 @@ strArr.forEach(function(element) {
     revStr.unshift(element);
     }, this);
 console.log(revStr);
+//var outstr = revStr.join("");
+//Recommended way to do this
+var outstr = str.split('').reverse().join("");
+console.log(outstr);
+
+//strArr.reverse().join("");
 </script>
