@@ -1,0 +1,12 @@
+<script>
+
+var str = "hello";
+console.log(str);
+var strArr = str.split('');
+console.log(strArr);
+var revStr = [];
+strArr.forEach(function(element) {
+    revStr.unshift(element);
+    }, this);
+console.log(revStr);
+</script>
