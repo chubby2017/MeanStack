@@ -1,0 +1,15 @@
+//Initial configurations
+
+git init
+git remote add <repository_local_name> <github_link>
+git config user.name <github_usernane>
+git config user.email <github_email>
+
+//From my system to server
+
+git add .
+git commit -m "<comment_message>"
+git push -u <repository_local_name> master
+
+//From server to my system
+git pull <repository_local_name> master
